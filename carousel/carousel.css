@@ -1,0 +1,84 @@
+	body {
+		background: #ddd;
+	}
+  .item {
+    /*overflow: hidden;*/
+  }
+	.no-padding-margin {
+		padding: 0!important;
+		margin: 0!important;
+	}
+	.post-top {
+		margin-top:5vh;
+	}
+	.item-post {
+		height: 500px;
+	}
+	.left-bar {
+		height: 500px;
+  }
+  .right-bar {
+    padding-left: 3px!important;
+  }
+	.right-top{
+    height: 248.5px; 
+    margin-bottom: 1.5px!important;
+  }
+  .right-bottom {
+		height: 248.5px;
+    margin-top: 1.5px!important; 
+	}
+  .post-image {
+    background-size: cover!important;
+    background-position: center!important;
+    height: 100%;
+    transition: ease .4s;
+  }
+  .left-bar,
+  .right-top,
+  .right-bottom {
+    overflow: hidden;
+  }
+  .left-bar:hover .post-image,
+  .right-top:hover .post-image,
+  .right-bottom:hover .post-image{
+    transform: scaleX(1.1) scaleY(1.1);
+  }
+  .left-bar:hover .post-title,
+  .right-top:hover .post-title,
+  .right-bottom:hover .post-title{
+    padding-bottom: 15px;
+  }
+  .post-title {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    padding: 40px 20px 3px 20px;
+    color: #fff;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3),rgba(0,0,0,6));
+    transition: ease .3s;
+    text-align: left; 
+  }
+  .post-title h3 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .left-bar h3 {
+    margin-left: 10px;
+  }
+  .btn-carousel-actions#prev {
+    padding: 15px 15px 15px 10px;
+    width: 10px;
+    height: 70px;
+    position: absolute;
+    margin-top: 285px;
+    margin-left: -25px; 
+  }
+  .btn-carousel-actions#next {
+    padding: 15px 15px 15px 10px;
+    width: 10px;
+    height: 70px;
+    position: absolute;
+    margin-top: 215px;
+    right: 0;
+  } 
